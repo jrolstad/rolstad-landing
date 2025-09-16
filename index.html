@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rolstad</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Rolstad - All Things Rolstad</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="rainier-r">
-            <img src="rainier.jpg" alt="Rainier R" />
+    <main>
+        <div class="container">
+            <div class="rainier-r">
+                <img src="images/rainier.jpg" alt="Rainier R Logo" />
+            </div>
+            <div class="subtitle">All Things Rolstad</div>
+            <button class="contact-btn" onclick="openModal()">Contact</button>
         </div>
-        <div class="subtitle">All Things Rolstad</div>
-        <button class="contact-btn" onclick="openModal()">Contact</button>
-    </div>
+    </main>
 
     <!-- Modal -->
     <div id="contactModal" class="modal">
@@ -24,6 +31,7 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
 </body>
 </html>
